@@ -5,8 +5,13 @@ import TodoListItem from './tofo-list-item';
 const TodoList = ({ todos }) => {
 
     const elements = todos.map((item) => {
-         return (
-          <li><TodoListItem {...item} /></li>
+     
+     const { id, ...itemProps } = item;
+     
+     return (
+          <li key={id}>
+               <TodoListItem {...itemProps } />
+          </li>
          );
     });
     return (
