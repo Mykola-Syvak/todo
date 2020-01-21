@@ -1,6 +1,9 @@
 .todo-list-item {
     font-size: 1.25rem;
     padding-left: 1rem;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
   }
   
   .todo-list-item button {
@@ -22,4 +25,10 @@
   .todo-list-item.important .todo-list-item-label {
     font-weight: bold;
     color: steelblue;
+  }
+
+  .btn-sm {
+    
+    padding-left: auto;
+    
   }
