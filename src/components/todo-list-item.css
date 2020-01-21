@@ -1,5 +1,6 @@
 .todo-list-item {
     font-size: 1.25rem;
+    padding-left: 1rem;
   }
   
   .todo-list-item button {

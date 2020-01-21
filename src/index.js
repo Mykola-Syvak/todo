@@ -5,6 +5,8 @@ import AppHeader from './components/app-header';
 import TodoList from './components/todo-list';
 import SearchPanel from './components/search-panel';
 
+import './main.css';
+
 const App = () => {
      
      const todoData = [
@@ -14,7 +16,7 @@ const App = () => {
      ];
 
      return (
-          <div>
+          <div className="indexClass">
                <AppHeader />
                <SearchPanel />
                <TodoList todos={todoData} />
