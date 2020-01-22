@@ -4,7 +4,7 @@ import './search-panel.css';
 
 const SearchPanel = () => {
 
-    const searchText = 'Type here to search';
+    const searchText = '  Type to search';
     const searchStyle = {
          fontSize: '20px'
     };
